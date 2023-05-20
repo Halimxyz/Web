@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.empty {
+    width: 70%;
+    height: 10px;
+    background-color: #1098ad;
+    margin-left: 230px;
+}
+
+nav {
+    width: 70%;
+    background-color: #f7f7f7;
+    height: 40px;
+    padding: 10px 0;
+    margin-left: 230px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #1098ad;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #555;
+}
+
+.row {
+width: 60%;
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-content: space-between;
+}
+
+label[for ="FName"]
+{
+    width: 50%;
+}
+
+#FName{
+    width:50%;
+    margin-right: 0px;
+}
+
+#LName{
+    width:50%;
+}
+
+#EM {
+    width: 50%
+}
+
+#Phone{
+    width: 30%
+    
+}
+
+#lvl{
+    width:4em;
+}
+
+#ID{
+    width:9em;
+}
+
+#Dept{
+    width:5em;
+}
+
+#Date{
+    width:11em;
+}
+
+#Active{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#Inactive{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#male{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#Female{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#gender-label{
+    display: flex;
+    margin-top: 15px;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+form {
+    color: #1098ad;
+    width: 90%;
+    margin: 2rem auto;
+    border: 2px solid #ccc;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+label {
+font-weight: bold;
+margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+width: 100%;
+padding: 0.5rem;
+margin-bottom: 1rem;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+select[disabled] {
+    background-color: #f2f2f2;
+}
+
+input[type="radio"] {
+margin-right: 0.5rem;
+}
+
+button[id="submission-button"],
+button[id="reset-button"] {
+background-color: #1098ad;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 0.5rem 1rem;
+cursor: pointer;
+margin-right: 1rem;
+}
+
+button[type="button"]:hover{
+    background-color: #0c6d7e;
+}
+::selection {
+    background-color: #333;
+    color: ghostwhite;
+}
+

@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Add a new student</title>
+    <link rel="stylesheet" href="styles/AddStudent.css" />
+  </head>
+  <body>
+      <div class="empty"></div>
+    <nav>
+      <ul>
+        <li>
+          <a href="HomePage.html"><b>Home page</b></a>
+        </li>
+        <li>
+          <a href="Search.html"><b>Search</b></a>
+        </li>
+        <li class="mine">
+          <a href="AddStudent.html"><b>Add a new student</b></a>
+        </li>
+        <li>
+          <a href="Students.html"><b>Students</b></a>
+        </li>
+      </ul>
+    </nav>
+    <form novalidate>
+      <br />
+      <div>
+        <input
+          type="text"
+          class="first-name"
+          placeholder="First name"
+          required
+        />
+        <input type="text" class="last-name" placeholder="Last name" required />
+      </div>
+      <br />
+      <div>
+        <input type="email" class="email" placeholder="E-mail" required />
+      </div>
+      <br />
+      <div>
+        <label>Mobile number</label>
+        <input type="tel" class="mobile-number" required />
+      </div>
+      <br />
+      <div>
+        <label>Level</label>
+        <select class="level" required>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Student ID</label>
+        <input type="text" class="id" required />
+      </div>
+      <br />
+      <div>
+        <label>Student GPA</label>
+        <input type="text" class="gpa" required />
+      </div>
+      <br />
+      <div>
+        <input
+          id="status1"
+          type="radio"
+          name="status"
+          value="active"
+          required
+        />
+        <label for="status1">Active</label>
+        <input
+          id="status2"
+          type="radio"
+          name="status"
+          value="inactive"
+          required
+        />
+        <label for="status2">Inactive</label>
+      </div>
+      <br />
+      <div>
+        <label>Department</label>
+        <select class="department" required>
+          <option value="general">General</option>
+          <option value="CS">Computer science</option>
+          <option value="IS">Information system</option>
+          <option value="IT">Information technology</option>
+          <option value="AI">Artificial intelligence</option>
+          <option value="DS">Decision support</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label>Date</label>
+        <input type="date" class="date" required />
+      </div>
+      <br />
+      <div>
+        <input id="gender1" type="radio" name="gender" value="male" required />
+        <label for="status1">Male</label>
+        <input
+          id="gender2"
+          type="radio"
+          name="gender"
+          value="female"
+          required
+        />
+        <label for="gender2">Female</label>
+      </div>
+      <br />
+      <button id="submit" onclick="submit_data()">Submit</button>
+      <button onclick="clear_data()" id="reset">Reset</button>
+    </form>
+    <script src="js/AddStudent.js"></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+﻿* {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.empty {
+    width: 70%;
+    height: 10px;
+    background-color: #1098ad;
+    margin-left: 230px;
+}
+
+nav {
+    width: 70%;
+    background-color: #f7f7f7;
+    height: 40px;
+    padding: 10px 0;
+    margin-left: 230px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #1098ad;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #555;
+}
+
+.mine {
+    border-bottom: 5px solid #555;
+}
+
+form {
+    margin-top: 10px;
+    color: #1098ad;
+    text-shadow: 0 0 1px #1098ad;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+input,
+select {
+    color: #333;
+    border-radius: 8px;
+    border: 3px solid #1098ad;
+    font-size: 15px;
+}
+
+    input[type="radio"]:hover {
+        cursor: pointer;
+    }
+
+.last-name {
+    margin: 0 40px;
+}
+
+.email {
+    margin: 10px 0;
+}
+
+.mobile-number,
+.level,
+.id,
+.gpa,
+#status1,
+#status2,
+.department,
+.date,
+#gender1,
+#gender2 {
+    margin: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #1098ad;
+    color: ghostwhite;
+    text-shadow: 0 0 1px ghostwhite;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 5px 1px 4px 0 #1098ad;
+}
+
+button:last-of-type {
+    margin-left: 80px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #555;
+    box-shadow: 5px 1px 4px 0 #555;
+}
+
+::selection {
+    background-color: #333;
+    color: ghostwhite;
+}

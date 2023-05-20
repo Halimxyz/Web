@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edit student info</title>
+    <link rel="stylesheet" href="styles/EditPage.css" />
+  </head>
+
+  <body>
+    <div class="empty"></div>
+    <nav>
+      <ul>
+        <li>
+          <a href="HomePage.html"><b>Home page</b></a>
+        </li>
+        <li>
+          <a href="Search.html"><b>Search</b></a>
+        </li>
+        <li>
+          <a href="AddStudent.html"><b>Add a new student</b></a>
+        </li>
+        <li>
+          <a href="Students.html"><b>Students</b></a>
+        </li>
+      </ul>
+    </nav>
+
+    <form action="">
+      <div class="row">
+        <div class="column">
+          <label for="FName">First Name</label>
+          <input id="FName" type="text" placeholder="Student First Name" />
+        </div>
+
+        <div class="column">
+          <label for="LName">Last Name</label>
+          <input id="LName" type="text" placeholder="Student Last Name" />
+        </div>
+      </div>
+
+      <div class="column">
+        <label for="EM">Email</label>
+        <input id="EM" type="text" placeholder="E-Mail" />
+      </div>
+
+      <div class="column">
+        <label for="Phone">Phone Number</label>
+        <input id="Phone" type="text" placeholder="Phone Number" />
+      </div>
+
+      <div class="column">
+        <label for="lvl">Level</label>
+        <select id="lvl" name="LvL">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+
+      <div class="column">
+        <label for="ID">Id</label>
+        <input id="ID" type="number" placeholder="ID" />
+      </div>
+      <div class="column">
+        <label for="GPA">GPA</label>
+        <input id="GPA" type="number" placeholder="GPA" />
+      </div>
+      <label for="Active">Active</label>
+      <div class="column">
+        <div>
+          <input id="Active" type="radio" name="isActive" />
+          <label for="Active">Active</label>
+        </div>
+
+        <div>
+          <input id="Inactive" type="radio" name="isActive" />
+          <label for="Inactive">Inactive</label>
+        </div>
+      </div>
+
+      <div class="column">
+        <label for="Dept">Department</label>
+        <select id="Dept" name="Department" disabled>
+          <option value="CS">CS</option>
+          <option value="AI">AI</option>
+          <option value="IT">IT</option>
+          <option value="IS">IS</option>
+          <option value="DS">DS</option>
+        </select>
+      </div>
+
+      <div class="column">
+        <label for="Date">Date</label>
+        <input id="Date" name="Date" type="date" />
+      </div>
+
+      <label id="gender-label">Gender</label>
+      <div class="column">
+        <div>
+          <input id="Male" type="radio" name="Gender" />
+          <label for="Male">Male</label>
+        </div>
+        <div>
+          <input id="Female" type="radio" name="Gender" />
+          <label for="Female">Female</label>
+        </div>
+      </div>
+
+      <button id="submission-button" type="button">Submit</button>
+      <button id="reset-button" type="button">Reset</button>
+      <button id="delete-button" type="button">Delete</button>
+    </form>
+    <script src="js/EditPage1.js"></script>
+  </body>
+</html>

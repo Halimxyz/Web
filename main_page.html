@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+     <title>Main</title>
+     <link rel="stylesheet" href="styles/main.css" />
+ </head>
+ <body>
+     <div class="container">
+         <div><img src="imgs/human_resources.png" /></div>
+         <div><img src="imgs/students_affairs.png" id="go_to" /></div>
+         <div><img src="imgs/high_studying.png" /></div>
+         <div><img src="imgs/lab_track.png" /></div>
+     </div>
+         <script>
+             let btn = document.getElementById('go_to');
+             btn.onclick = function () {
+                 location.href = 'loading.html';
+             }
+         </script>
+ </body>
+</html>

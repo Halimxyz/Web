@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assign the Department</title>
+    <meta
+      name="description"
+      content="Assign the depertment page for the Student"
+    />
+    <link rel="stylesheet" href="styles/AssignDepartment.css" />
+  </head>
+
+  <body>
+      <div class="empty"></div>
+      <nav>
+          <ul>
+              <li>
+                  <a href="HomePage.html"><b>Home page</b></a>
+              </li>
+              <li>
+                  <a href="Search.html"><b>Search</b></a>
+              </li>
+              <li>
+                  <a href="AddStudent.html"><b>Add a new student</b></a>
+              </li>
+              <li>
+                  <a href="Students.html"><b>Students</b></a>
+              </li>
+          </ul>
+      </nav>
+      <div class="Name">
+          <span>
+              <label for="fname">First Name</label>
+              <input type="text" name="FirstName" id="fname" readonly />
+          </span>
+
+          <span>
+              <label for="lname">Last Name</label>
+              <input type="text" name="LastName" id="lname" readonly />
+          </span>
+      </div>
+      <br />
+      <div class="StudentID">
+          <label for="id">Student ID</label>
+          <input type="number" name="StudentID" id="Sid" readonly />
+      </div>
+      <br />
+      <div class="Enrollment">
+          <label for="deprt">Department</label>
+          <select name="depertment" id="SELdeprt">
+              <option value="CS">CS</option>
+              <option value="AI">AI</option>
+              <option value="IS">IS</option>
+              <option value="DS">DS</option>
+              <option value="IT">IT</option>
+          </select>
+      </div>
+      <br />
+      <div class="bott">
+          <button id="submit">Submit</button>
+      </div>
+      <script src="js/AssignDepartment.js"></script>
+  </body>
+</html>

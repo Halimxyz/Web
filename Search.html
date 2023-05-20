@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Result</title>
+    <link href="styles/Search.css" rel="stylesheet" />
+  </head>
+  <body>
+      <div class="empty"></div>
+      <nav>
+          <ul>
+              <li>
+                  <a href="HomePage.html"><b>Home page</b></a>
+              </li>
+              <li class="mine">
+                  <a href="Search.html"><b>Search</b></a>
+              </li>
+              <li>
+                  <a href="AddStudent.html"><b>Add a new student</b></a>
+              </li>
+              <li>
+                  <a href="Students.html"><b>Students</b></a>
+              </li>
+          </ul>
+      </nav>
+      <form>
+          <input id="name-input" type="text" placeholder="Student Name" />
+          <button id="search-btn" type="button">Search</button>
+      </form>
+      <br />
+      <table>
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>ID</th>
+                  <th>Level</th>
+                  <th>Department</th>
+                  <th>GPA</th>
+                  <th>Gender</th>
+                  <th>Status</th>
+              </tr>
+          </thead>
+          <tbody></tbody>
+      </table>
+      <script src="js/Search.js"></script>
+  </body>
+</html>

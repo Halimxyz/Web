@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.empty {
+    width: 70%;
+    height: 10px;
+    background-color: #1098ad;
+    margin-left: 230px;
+}
+
+nav {
+    width: 70%;
+    background-color: #f7f7f7;
+    height: 40px;
+    padding: 10px 0;
+    margin-left: 230px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #1098ad;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #555;
+}
+
+
+label {
+    padding: 0px 10px;
+    color: #1098ad;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 0px 10px;
+    border-radius: 7px;
+    border-color: #1098ad;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin: 100px 10px 10px 10px;
+    background-color: black;
+    color: white;
+}
+
+input[type="reset"] {
+    padding: 10px;
+    margin: 100px 10px 10px 20px;
+    background-color: #1098ad;
+    color: white;
+}
+
+input,
+select:focus {
+    outline: none;
+}
+
+.Name,
+.Enrollment,
+.StudentID {
+    padding-top: 50px;
+}
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #1098ad;
+    color: ghostwhite;
+    text-shadow: 0 0 1px ghostwhite;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 5px 1px 4px 0 #1098ad;
+    margin: 30px 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #555;
+    box-shadow: 5px 1px 4px 0 #555;
+}
+
+::selection {
+    background-color: #333;
+    color: ghostwhite;
+}
